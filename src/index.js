@@ -1,13 +1,8 @@
-'use strict';
-/* global shoppingList, store, api */
 import $ from 'jquery';
-// import shoppingList from 'shopping-list';
-// import store from 'store';
-// import api from 'api';
-// import './styles/index.css';
-console.log('hey this is a new message, change for me webpack');
-
-
+import api from './api';
+import store from './store';
+import shoppingList from './shopping-list';
+import './index.css';
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();
@@ -18,7 +13,7 @@ $(document).ready(function() {
       items.forEach((item) => store.addItem(item));
       shoppingList.render();
     })
-    .catch(err => console.log(err.message))
+    .catch(err => console.log(err.message));
 });
 
 
