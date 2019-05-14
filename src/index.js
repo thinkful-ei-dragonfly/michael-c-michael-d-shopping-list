@@ -5,7 +5,7 @@ import $ from 'jquery';
 // import store from 'store';
 // import api from 'api';
 // import './styles/index.css';
-console.log('adding hot reload to console log');
+console.log('hey this is a new message, change for me webpack');
 
 
 
