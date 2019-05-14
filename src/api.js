@@ -1,4 +1,6 @@
+
 const BASE_URL = 'https://thinkful-list-api.herokuapp.com/michaelD';
+
 
 /**
  * listApiFetch - Wrapper function for native `fetch` to standardize error handling. 

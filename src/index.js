@@ -13,6 +13,7 @@ $(document).ready(function() {
       items.forEach((item) => store.addItem(item));
       shoppingList.render();
     })
+    // eslint-disable-next-line no-console
     .catch(err => console.log(err.message));
 });
 
